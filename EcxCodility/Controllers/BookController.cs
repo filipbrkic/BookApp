@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
-using EcxCodility.Common.Models;
-using EcxCodility.DAL.Models;
 using EcxCodility.Models;
 using EcxCodility.Service.Common;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace EcxCodility.Controllers
 {
