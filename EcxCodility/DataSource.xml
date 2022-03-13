@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<ArrayOfBookDTO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000001</Id>
+    <Author>Gambardella, Matthew</Author>
+    <Title>XML Developer's Guide</Title>
+    <Genre>Computer</Genre>
+    <Price>44.95</Price>
+    <Description>
+			An in-depth look at creating applications
+			with XML.
+		</Description>
+    <Borrower />
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000002</Id>
+    <Author>Ralls, Kim</Author>
+    <Title>Midnight Rain</Title>
+    <Genre>Fantasy</Genre>
+    <Price>5.95</Price>
+    <Description>
+			A former architect battles corporate zombies,
+			an evil sorceress, and her own childhood to become queen
+			of the world.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000003</Id>
+    <Author>Corets, Eva</Author>
+    <Title>Maeve Ascendant</Title>
+    <Genre>Fantasy</Genre>
+    <Price>5.95</Price>
+    <Description>
+			After the collapse of a nanotechnology
+			society in England, the young survivors lay the
+			foundation for a new society.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000004</Id>
+    <Author>Corets, Eva</Author>
+    <Title>Oberon's Legacy</Title>
+    <Genre>Fantasy</Genre>
+    <Price>5.95</Price>
+    <Description>
+			In post-apocalypse England, the mysterious
+			agent known only as Oberon helps to create a new life
+			for the inhabitants of London. Sequel to Maeve
+			Ascendant.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000005</Id>
+    <Author>Corets, Eva</Author>
+    <Title>The Sundered Grail</Title>
+    <Genre>Fantasy</Genre>
+    <Price>5.95</Price>
+    <Description>
+			The two daughters of Maeve, half-sisters,
+			battle one another for control of England. Sequel to
+			Oberon's Legacy.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000006</Id>
+    <Author>Randall, Cynthia</Author>
+    <Title>Lover Birds</Title>
+    <Genre>Romance</Genre>
+    <Price>4.95</Price>
+    <Description>
+			When Carla meets Paul at an ornithology
+			conference, tempers fly as feathers get ruffled.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000007</Id>
+    <Author>Thurman, Paula</Author>
+    <Title>Splish Splash</Title>
+    <Genre>Romance</Genre>
+    <Price>4.95</Price>
+    <Description>
+			A deep sea diver finds true love twenty
+			thousand leagues beneath the sea.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000008</Id>
+    <Author>Knorr, Stefan</Author>
+    <Title>Creepy Crawlies</Title>
+    <Genre>Horror</Genre>
+    <Price>4.95</Price>
+    <Description>
+			An anthology of horror stories about roaches,
+			centipedes, scorpions  and other insects.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000009</Id>
+    <Author>Kress, Peter</Author>
+    <Title>Paradox Lost</Title>
+    <Genre>Science Fiction</Genre>
+    <Price>6.95</Price>
+    <Description>
+			After an inadvertant trip through a Heisenberg
+			Uncertainty Device, James Salway discovers the problems
+			of being quantum.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000010</Id>
+    <Author>O'Brien, Tim</Author>
+    <Title>Microsoft .NET: The Programming Bible</Title>
+    <Genre>Computer</Genre>
+    <Price>36.95</Price>
+    <Description>
+			Microsoft's .NET initiative is explored in
+			detail in this deep programmer's reference.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000011</Id>
+    <Author>O'Brien, Tim</Author>
+    <Title>MSXML3: A Comprehensive Guide</Title>
+    <Genre>Computer</Genre>
+    <Price>36.95</Price>
+    <Description>
+			The Microsoft MSXML3 parser is covered in
+			detail, with attention to XML DOM interfaces, XSLT processing,
+			SAX and more.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+  <BookDTO>
+    <Id>00000000-0000-0000-0000-000000000012</Id>
+    <Author>Galos, Mike</Author>
+    <Title>Visual Studio 7: A Comprehensive Guide</Title>
+    <Genre>Computer</Genre>
+    <Price>49.95</Price>
+    <Description>
+			Microsoft Visual Studio 7 is explored in depth,
+			looking at how Visual Basic, Visual C++, C#, and ASP+ are
+			integrated into a comprehensive development
+			environment.
+		</Description>
+    <IsBorrowed>false</IsBorrowed>
+  </BookDTO>
+</ArrayOfBookDTO>

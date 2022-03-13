@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EcxCodility.Common\EcxCodility.Common.csproj" />
+    <ProjectReference Include="..\EcxCodility.Repository.Common\EcxCodility.Repository.Common.csproj" />
+    <ProjectReference Include="..\EcxCodility.Service.Common\EcxCodility.Service.Common.csproj" />
+  </ItemGroup>
+
+</Project>

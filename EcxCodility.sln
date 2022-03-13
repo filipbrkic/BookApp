@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcxCodility", "EcxCodility\EcxCodility.csproj", "{E9230B98-F33C-433E-B83E-9ADAB2C80FA1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CD8155F5-6B85-4248-B741-789C5999CCD4} = {CD8155F5-6B85-4248-B741-789C5999CCD4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcxCodility.Common", "EcxCodility.Common\EcxCodility.Common.csproj", "{B920FE49-65B5-4C83-97A0-25317120FBE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B9D933E-F7B6-4A7B-97C6-355ECBF795FA} = {4B9D933E-F7B6-4A7B-97C6-355ECBF795FA}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcxCodility.DAL", "EcxCodility.DAL\EcxCodility.DAL.csproj", "{4B9D933E-F7B6-4A7B-97C6-355ECBF795FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcxCodility.Repository.Common", "EcxCodility.Repository.Common\EcxCodility.Repository.Common.csproj", "{EAC2FC71-EC06-4BF8-B396-349C589A0A0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B9D933E-F7B6-4A7B-97C6-355ECBF795FA} = {4B9D933E-F7B6-4A7B-97C6-355ECBF795FA}
+		{B920FE49-65B5-4C83-97A0-25317120FBE8} = {B920FE49-65B5-4C83-97A0-25317120FBE8}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcxCodility.Repository", "EcxCodility.Repository\EcxCodility.Repository.csproj", "{28706E5B-B02B-47C1-8998-8F5FEDE36AA8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B9D933E-F7B6-4A7B-97C6-355ECBF795FA} = {4B9D933E-F7B6-4A7B-97C6-355ECBF795FA}
+		{B920FE49-65B5-4C83-97A0-25317120FBE8} = {B920FE49-65B5-4C83-97A0-25317120FBE8}
+		{EAC2FC71-EC06-4BF8-B396-349C589A0A0A} = {EAC2FC71-EC06-4BF8-B396-349C589A0A0A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcxCodility.Service.Common", "EcxCodility.Service.Common\EcxCodility.Service.Common.csproj", "{ADA48776-F3FA-45B5-A8A0-406917D1599F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{28706E5B-B02B-47C1-8998-8F5FEDE36AA8} = {28706E5B-B02B-47C1-8998-8F5FEDE36AA8}
+		{EAC2FC71-EC06-4BF8-B396-349C589A0A0A} = {EAC2FC71-EC06-4BF8-B396-349C589A0A0A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcxCodility.Service", "EcxCodility.Service\EcxCodility.Service.csproj", "{CD8155F5-6B85-4248-B741-789C5999CCD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9230B98-F33C-433E-B83E-9ADAB2C80FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9230B98-F33C-433E-B83E-9ADAB2C80FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9230B98-F33C-433E-B83E-9ADAB2C80FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9230B98-F33C-433E-B83E-9ADAB2C80FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B920FE49-65B5-4C83-97A0-25317120FBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B920FE49-65B5-4C83-97A0-25317120FBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B920FE49-65B5-4C83-97A0-25317120FBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B920FE49-65B5-4C83-97A0-25317120FBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9D933E-F7B6-4A7B-97C6-355ECBF795FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9D933E-F7B6-4A7B-97C6-355ECBF795FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9D933E-F7B6-4A7B-97C6-355ECBF795FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9D933E-F7B6-4A7B-97C6-355ECBF795FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC2FC71-EC06-4BF8-B396-349C589A0A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC2FC71-EC06-4BF8-B396-349C589A0A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC2FC71-EC06-4BF8-B396-349C589A0A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC2FC71-EC06-4BF8-B396-349C589A0A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28706E5B-B02B-47C1-8998-8F5FEDE36AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28706E5B-B02B-47C1-8998-8F5FEDE36AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28706E5B-B02B-47C1-8998-8F5FEDE36AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28706E5B-B02B-47C1-8998-8F5FEDE36AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA48776-F3FA-45B5-A8A0-406917D1599F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA48776-F3FA-45B5-A8A0-406917D1599F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA48776-F3FA-45B5-A8A0-406917D1599F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA48776-F3FA-45B5-A8A0-406917D1599F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8155F5-6B85-4248-B741-789C5999CCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8155F5-6B85-4248-B741-789C5999CCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8155F5-6B85-4248-B741-789C5999CCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8155F5-6B85-4248-B741-789C5999CCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CD02C8E-C518-4300-9A8E-16285C07D572}
+	EndGlobalSection
+EndGlobal
